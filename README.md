@@ -1,16 +1,21 @@
+# Pre-requisites
+
+* PHP 8.1+
+* Composer 2+
+
 # Set Up
 
 Run composer:
 
     composer install
 
-Generate application key:
-
-    php artisan key:generate
-
 Create environment file:
 
     cp .env.example .env
+
+Generate application key:
+
+    php artisan key:generate
 
 Edit .env file replacing database section with single line:
 
