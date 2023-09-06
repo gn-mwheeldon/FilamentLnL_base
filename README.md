@@ -10,7 +10,7 @@ Edit .env file replacing database section with single line:
 
 Create file for sqlite database:
 
-    touch database\database.sqlite
+    touch database/database.sqlite
 
 Run migrations:
 
@@ -18,7 +18,7 @@ Run migrations:
 
 Check tables have been created with sqlite command line or use PHPStorm to connect:
 
-    sqlite3 database\database.sqlite
+    sqlite3 database/database.sqlite
 
 Serve application:
 
