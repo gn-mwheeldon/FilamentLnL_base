@@ -1,5 +1,13 @@
 # Set Up
 
+Run composer:
+
+    composer install
+
+Generate application key:
+
+    php artisan key:generate
+
 Create environment file:
 
     cp .env.example .env
